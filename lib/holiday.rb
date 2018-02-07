@@ -62,7 +62,7 @@ def add_new_holiday_with_supplies(holiday_hash, season, holiday_name, supply_arr
       if seasons.to_s == season
         holidays[holiday_name]= supply_array
       end
-      holiday hash
+      holiday_hash
   end
   holiday_hash
 end

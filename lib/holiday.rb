@@ -103,7 +103,7 @@ def all_holidays_with_bbq(holiday_hash)
   bbqarray = Array.new
   holiday_hash.each do |seasons, holidays|
     holidays.each do |holiday, supplies|
-      if supplies == "BBQ"
+      if supplies.include?("BBQ")
         bbqarray.push(holiday)
       end 
     end 
